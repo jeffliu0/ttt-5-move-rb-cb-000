@@ -10,7 +10,6 @@ end
 def input_to_index(input)
 
   if(!input.match(/^(\d)+$/))
-    puts "sup"
     return -1
   end
 
