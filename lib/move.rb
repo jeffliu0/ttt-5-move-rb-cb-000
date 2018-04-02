@@ -8,11 +8,12 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
+
+  puts(input.to_i.is_a?(Integer))
+
   if input.to_i == 0
     return "0".to_i
   end
-
-  puts(input.to_i.is_a?(Integer))
 
   return input.to_i - 1
 end
