@@ -12,7 +12,7 @@ def input_to_index(input)
     return "0".to_i
   end
 
-  puts(input.to_i)
+  puts(input.to_i.is_a?(Integer))
 
   return input.to_i - 1
 end
