@@ -11,7 +11,7 @@ def input_to_index(input)
   if input == "0"
     return 0
   end
-    
+
   return input.to_i - 1
 end
 
