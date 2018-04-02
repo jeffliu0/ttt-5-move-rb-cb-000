@@ -7,3 +7,5 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 
 board = Array.new(9, " ")
+
+move(board, 0, "X")
