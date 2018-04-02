@@ -6,8 +6,8 @@ require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
 
-board = Array.new(9, " ")
-
-move(board, 6)
+input = gets.strip
+converted = input_to_index(input)
+move(board, )
 
 puts board
