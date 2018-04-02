@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  if input == 0
+  if input == "0"
     return 0
   return input.to_i - 1
 end
