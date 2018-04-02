@@ -10,6 +10,7 @@ end
 def input_to_index(input)
 
   if input.is_a? String
+    puts "sup"
     return -1
   end
 
