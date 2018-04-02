@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
 
-  if input !~ /\D/ == false
+  if input !~ /\D/
     return -1
   end
 
