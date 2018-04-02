@@ -10,6 +10,8 @@ end
 def input_to_index(input)
   if input == "0"
     return 0
+  if input != "0".."9"
+    return -1
   return input.to_i - 1
 end
 
