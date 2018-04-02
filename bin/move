@@ -8,6 +8,6 @@ puts "Welcome to Tic Tac Toe!"
 
 board = Array.new(9, " ")
 
-move(board, 1, "O")
+move(board, 1a, "O")
 
 puts board
