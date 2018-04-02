@@ -10,6 +10,7 @@ end
 def input_to_index(input)
 
   puts(input.to_i.is_a?(Integer))
+  puts input
 
   if input.to_i == 0
     return "0".to_i
