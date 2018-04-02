@@ -12,10 +12,6 @@ def input_to_index(input)
     return "0".to_i
   end
 
-  if input.to_i.is_a? Integer == false
-    return -1
-  end
-
   return input.to_i - 1
 end
 
