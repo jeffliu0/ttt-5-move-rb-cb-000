@@ -12,6 +12,8 @@ def input_to_index(input)
     return "0".to_i
   end
 
+  puts(input.to_i)
+
   return input.to_i - 1
 end
 
