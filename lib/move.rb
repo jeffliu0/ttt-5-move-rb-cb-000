@@ -12,7 +12,7 @@ def input_to_index(input)
   if input.is_a? String
     return -1
   end
-  
+
   if input.to_i == 0
     return "0".to_i
   end
@@ -21,6 +21,7 @@ def input_to_index(input)
 end
 
 def move(board, index, char = "X")
+  puts input_to_index(index)
   board[input_to_index(index)] = char
   display_board(board)
   return board
