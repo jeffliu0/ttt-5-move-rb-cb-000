@@ -9,7 +9,8 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
 
-  if !input.numeric? 
+  begin
+    n = Integer(input)
     return -1
   end
 
