@@ -9,9 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
 
-  if input.is_a? String
-    return -1
-  end
+  puts "Integer".to_i
 
   if input.to_i == 0
     return "0".to_i
